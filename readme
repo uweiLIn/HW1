@@ -1,0 +1,8 @@
+According to the way to read the data in the example code，it runs row by row as a list. 
+Hence I aplly the removal of invalid case('-99.000' or '-999.000') during the reading process.
+In the process, calculate the 'PRES' value from stations, sum them and count the number of data from certain stations.
+And, record sum and num as lists individually.
+After reading, I decide to define a new function called "count" with three parameters named (station, sum , num) passing 
+the station name, the sum we record and numbers of target station.
+In the function "count", print in the form of example output, and calculate mean by division of sum and num.
+Output
